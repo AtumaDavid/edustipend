@@ -1,3 +1,3 @@
-#RUN JSON SERVER USING: json-server --watch db.json
+#RUN JSON SERVER USING: json-server --watch ./data/db.json
 
 #THEN RUN THE WEBSERVER IN ANOTHER TERMINAL USING: npm run dev
