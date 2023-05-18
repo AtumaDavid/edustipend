@@ -1,0 +1,97 @@
+/* .bg-nav {
+  background: #4e19a4;
+} */
+/* nav bar */
+body {
+  background: linear-gradient(
+    to right,
+    #6600cc,
+    #7000d4,
+    #7a00e0,
+    #8400eb,
+    #8e00f4,
+    #9900ff,
+    #a500ff,
+    #b000ff,
+    #bb00ff,
+    #c600ff
+  );
+}
+
+body::-webkit-scrollbar {
+  width: 0.1em; /* Adjust the width as needed */
+}
+
+/* Button {
+  background-color: #a500ff !important;
+  border: none !important;
+} */
+
+.nav-link:after {
+  content: "";
+  position: absolute;
+  background: linear-gradient(
+    45deg,
+    #7300ff,
+    #ff006c,
+    #ff7a00,
+    #ffcd00,
+    #2bff00,
+    #00ffea,
+    #0066ff,
+    #ac00ff,
+    #ff00e6,
+    #ff00b5,
+    #ff0032
+  );
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: 0;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: white !important;
+}
+
+.nav-link:hover:after {
+  width: 100%;
+}
+
+.scrollable-card-body {
+  max-height: 600px; /* Set the desired maximum height */
+  overflow-y: auto;
+}
+
+.scrollable-card-body::-webkit-scrollbar {
+  width: 0.1em;
+}
+
+/* create Playlist section */
+.gradient-text {
+  background: linear-gradient(
+    45deg,
+    #7300ff,
+    #ff006c,
+    #ff7a00,
+    #ffcd00,
+    #2bff00,
+    #00ffea,
+    #0066ff,
+    #ac00ff,
+    #ff00e6,
+    #ff00b5,
+    #ff0032
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 4em;
+}
+
+.sub-text {
+  font-style: italic;
+  font-size: 1.5em;
+}
